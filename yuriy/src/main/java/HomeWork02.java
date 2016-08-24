@@ -20,13 +20,37 @@ public class HomeWork02 {
         } else {
             System.out.println("b2 ближайшее к 10");
         }
-        double d1 = 8.5;
-        double d2 = 10.5;
-        double d3 = 1.5;
-        double k;
+
+        int d1 = 5, d2 = 8, d3 = 10;
+        int k, r;
         k = d1 > d2 ? d1 : d2;
-        {
-            System.out.println("k maximum");
+        r = k > d3 ? k : d3;
+        System.out.println(r + " max");
+        int k1, r1;
+        k1 = d1 < d2 ? d1 : d2;
+        r1 = k1 < d3 ? k1 : d3;
+        System.out.println(r1 + " min");
+
+        int q1 = 0, q2 = 1, q3 = 2, q4 = 4;
+        int x;
+        k = q1 > q2 ? q1 : q2;
+        r = k > q3 ? k : q3;
+        x = r > q4 ? r : q4;
+        System.out.println(x + " max");
+        /*if ((q1 != x) && (q1 > (q2 != x)) && (q1 > (q3 != x)) && (q1 > q4)) {
+            System.out.println(q1 + " second");
+        }
+        if ((q2 != x)  && (q2 > q1) && (q2 > q3) && (q2 > q4)) {
+            System.out.println(q2 + " second");
+        }
+        if ((q3 != x)  && (q3 > q2) && (q3 > q1) && (q3 > q4)) {
+            System.out.println(q3 + " second");
+        }
+        if ((q4 != x)  && (q4 > q2) && (q4 > q3) && (q4 > q1)) {
+            System.out.println(q4 + " second");
+        }*/
+
+
         }
     }
-}
+
