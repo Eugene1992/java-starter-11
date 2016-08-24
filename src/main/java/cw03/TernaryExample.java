@@ -15,7 +15,7 @@ public class TernaryExample {
             b = 0;
         }
 
-        b = a > 5 ? a == 9 ? 2 : 7 : 0;
+        b = a > 5 ?  2 : 7;
         // b =  condition  ? true : false;
 
         System.out.println(b);
