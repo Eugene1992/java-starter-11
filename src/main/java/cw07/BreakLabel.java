@@ -11,7 +11,7 @@ public class BreakLabel {
             System.out.println("End");
         }
         for (int i = 1; i < 1_000_000; i++) {
-
+            System.out.println();
         }
     }
     /**
